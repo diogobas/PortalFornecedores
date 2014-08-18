@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DAL
+</name>
+</assembly>
+<members>
+<member name="M:DAL.dalSP.#ctor">
+	<summary>
+	Construtor de uma stored procedure    
+ </summary>
+</member><member name="M:DAL.dalSP.#ctor(STL.STLBase@)">
+	<summary>
+	Construtor de uma stored procedure
+	<param name="STL">
+ Controle de transacao </param>
+	</summary>
+</member><member name="M:DAL.dalSP.Dispose">
+	<summary>
+	Dispose de StoredProcedure.
+ </summary>
+</member><member name="M:DAL.dalSP.Run">
+	<summary>
+ Executa esta stored procedure.
+	<returns>Um valor Int32 retornado pela stored procedure</returns>
+	</summary>
+</member><member name="M:DAL.dalSP.Run(System.Data.DataTable@)">
+	<summary>
+	Preenche um DataSet com o resultado da execução desta stored procedure.
+ <param name="dataTable">
+ DataTable preenchido com o resultado da execução da stored procedure</param>
+		<returns>
+ Um valor Int32 retornado pela stored procedure</returns>
+	</summary>
+</member><member name="P:DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

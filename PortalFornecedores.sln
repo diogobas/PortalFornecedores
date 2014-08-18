@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Web", "Web\Web.vbproj", "{226D4A91-79AF-499D-93B0-D9EBFF355C9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2D025C59-F75A-4FDD-82B7-205B749EB94C} = {2D025C59-F75A-4FDD-82B7-205B749EB94C}
+		{BAD005F0-6641-44F9-8C76-EE03B99C0235} = {BAD005F0-6641-44F9-8C76-EE03B99C0235}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Common", "Common\Common.vbproj", "{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "BLL\BLL.vbproj", "{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{BAD005F0-6641-44F9-8C76-EE03B99C0235}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ShL", "ShL\ShL.vbproj", "{656B38D7-5E75-437B-BFFE-59284253BE59}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "STL", "STL\STL.vbproj", "{2D025C59-F75A-4FDD-82B7-205B749EB94C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Web_Intra", "Web_Intra\Web_Intra.vbproj", "{1B6143B5-EA0B-4E03-9CDA-317CDCE0CBB1}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccProjectName0 = \u0022$/PFD\u0020-\u0020Portal\u0020de\u0020Fornecedores\u0020Duratex\u0022,\u0020COHBAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = BLL\\BLL.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = BLL\\
+		SccProjectUniqueName2 = Common\\Common.vbproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Common\\
+		SccProjectUniqueName3 = DAL\\DAL.vbproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = DAL\\
+		SccProjectUniqueName4 = ShL\\ShL.vbproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = ShL\\
+		SccProjectUniqueName5 = STL\\STL.vbproj
+		SccLocalPath5 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = STL\\
+		SccProjectUniqueName6 = Web\\Web.vbproj
+		SccLocalPath6 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = Web\\
+		SccProjectUniqueName7 = Web_Intra\\Web_Intra.vbproj
+		SccLocalPath7 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = Web_Intra\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226D4A91-79AF-499D-93B0-D9EBFF355C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226D4A91-79AF-499D-93B0-D9EBFF355C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226D4A91-79AF-499D-93B0-D9EBFF355C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226D4A91-79AF-499D-93B0-D9EBFF355C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD005F0-6641-44F9-8C76-EE03B99C0235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD005F0-6641-44F9-8C76-EE03B99C0235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD005F0-6641-44F9-8C76-EE03B99C0235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD005F0-6641-44F9-8C76-EE03B99C0235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656B38D7-5E75-437B-BFFE-59284253BE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656B38D7-5E75-437B-BFFE-59284253BE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656B38D7-5E75-437B-BFFE-59284253BE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656B38D7-5E75-437B-BFFE-59284253BE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D025C59-F75A-4FDD-82B7-205B749EB94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D025C59-F75A-4FDD-82B7-205B749EB94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D025C59-F75A-4FDD-82B7-205B749EB94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D025C59-F75A-4FDD-82B7-205B749EB94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6143B5-EA0B-4E03-9CDA-317CDCE0CBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6143B5-EA0B-4E03-9CDA-317CDCE0CBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6143B5-EA0B-4E03-9CDA-317CDCE0CBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6143B5-EA0B-4E03-9CDA-317CDCE0CBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

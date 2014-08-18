@@ -1,0 +1,31 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="PortalFornecedores.Site" %>
+<%@ Register src="Ucrs/UcrTopo.ascx" tagname="ucrTopo" tagprefix="uc1" %>
+<%@ Register src="Ucrs/ucrRodape.ascx" tagname="ucrRodape" tagprefix="uc2" %>
+<%@ Register src="Ucrs/ucrContentTop.ascx" tagname="ucrContentTop" tagprefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Includes/Mascara.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" method="POST">
+    <div class="page">
+        <div class="header">
+            <uc1:ucrTopo ID="ucrTopo" runat="server" />
+        </div>
+        <div class="align">
+            <uc3:ucrContentTop ID="ucrContentTop1" runat="server" />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="footer">
+        <uc2:ucrRodape ID="ucrRodape1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

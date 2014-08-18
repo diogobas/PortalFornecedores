@@ -1,0 +1,1313 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PortalFornecedores
+</name>
+</assembly>
+<members>
+<member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtDataSolicitacao">
+	<summary>
+txtDataSolicitacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtStatusSolicitacao">
+	<summary>
+txtStatusSolicitacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtEndereco">
+	<summary>
+txtEndereco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtNumero">
+	<summary>
+txtNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtComplemento">
+	<summary>
+txtComplemento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtBairro">
+	<summary>
+txtBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtCep">
+	<summary>
+txtCep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtCaixaPostal">
+	<summary>
+txtCaixaPostal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtCidade">
+	<summary>
+txtCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtEstado">
+	<summary>
+txtEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtSiglaPais">
+	<summary>
+txtSiglaPais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtNomeContato">
+	<summary>
+txtNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtSobrenomeContato">
+	<summary>
+txtSobrenomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtFuncaoContato">
+	<summary>
+txtFuncaoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtDepartamentoContato">
+	<summary>
+txtDepartamentoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtTelefoneContato">
+	<summary>
+txtTelefoneContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtFaxContato">
+	<summary>
+txtFaxContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtCelularContato">
+	<summary>
+txtCelularContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.txtEmailContato">
+	<summary>
+txtEmailContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusAlteracaoCadastro.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmLoginFornecedor.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmLoginFornecedor.txtChaveAcesso">
+	<summary>
+txtChaveAcesso control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmLoginFornecedor.btAcessoFornecedores">
+	<summary>
+btAcessoFornecedores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmLoginFornecedor.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.txtServicos">
+	<summary>
+txtServicos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.txtMateriais">
+	<summary>
+txtMateriais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.btSalvar">
+	<summary>
+btSalvar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro2.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtRazaoSocial">
+	<summary>
+txtRazaoSocial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtNomeFantazia">
+	<summary>
+txtNomeFantazia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtInscEstadual">
+	<summary>
+txtInscEstadual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtInscMunicipal">
+	<summary>
+txtInscMunicipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtEndereco">
+	<summary>
+txtEndereco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtNumero">
+	<summary>
+txtNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtComplemento">
+	<summary>
+txtComplemento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtBairro">
+	<summary>
+txtBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtCep">
+	<summary>
+txtCep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtCaixaPostal">
+	<summary>
+txtCaixaPostal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtCidade">
+	<summary>
+txtCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.ddlSiglaPais">
+	<summary>
+ddlSiglaPais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtNomeContato">
+	<summary>
+txtNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtSobrenomeContato">
+	<summary>
+txtSobrenomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtFuncaoContato">
+	<summary>
+txtFuncaoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtDepartamentoContato">
+	<summary>
+txtDepartamentoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtTelefoneContato">
+	<summary>
+txtTelefoneContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtFaxContato">
+	<summary>
+txtFaxContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtCelularContato">
+	<summary>
+txtCelularContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.txtEmailContato">
+	<summary>
+txtEmailContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.btProximo">
+	<summary>
+btProximo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ucrTopo.Image2">
+	<summary>
+Image2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmEntradaPagamentos.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmEntradaPagamentos.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSobreDuratex.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.cmbComoConheceu">
+	<summary>
+cmbComoConheceu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.lblNomeContato">
+	<summary>
+lblNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.txtNomeContato">
+	<summary>
+txtNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.txtServicos">
+	<summary>
+txtServicos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.txtMateriais">
+	<summary>
+txtMateriais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.btFinalizar">
+	<summary>
+btFinalizar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCadastramento2.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.txtCNPJCadastramento">
+	<summary>
+txtCNPJCadastramento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.btEnviarCadastramento">
+	<summary>
+btEnviarCadastramento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.txtChaveAcesso">
+	<summary>
+txtChaveAcesso control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.btAcessoFornecedores">
+	<summary>
+btAcessoFornecedores control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores._Default1.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtEndereco">
+	<summary>
+txtEndereco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtNumero">
+	<summary>
+txtNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtComplemento">
+	<summary>
+txtComplemento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtBairro">
+	<summary>
+txtBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtCep">
+	<summary>
+txtCep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtCaixaPostal">
+	<summary>
+txtCaixaPostal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtCidade">
+	<summary>
+txtCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.ddlSiglaPais">
+	<summary>
+ddlSiglaPais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtNomeContato">
+	<summary>
+txtNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtSobrenomeContato">
+	<summary>
+txtSobrenomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtFuncaoContato">
+	<summary>
+txtFuncaoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtDepartamentoContato">
+	<summary>
+txtDepartamentoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtTelefoneContato">
+	<summary>
+txtTelefoneContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtFaxContato">
+	<summary>
+txtFaxContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtCelularContato">
+	<summary>
+txtCelularContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.txtEmailContato">
+	<summary>
+txtEmailContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.btProximo">
+	<summary>
+btProximo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAtualizacaoCadastro.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Site.ucrTopo">
+	<summary>
+ucrTopo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Site.ucrContentTop1">
+	<summary>
+ucrContentTop1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Site.ucrRodape1">
+	<summary>
+ucrRodape1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ucrContentTop.MenuInterno_001">
+	<summary>
+MenuInterno_001 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ucrContentTop.MenuInterno_002">
+	<summary>
+MenuInterno_002 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ucrContentTop.MenuInterno_003">
+	<summary>
+MenuInterno_003 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.ucrContentTop.MenuInterno_004">
+	<summary>
+MenuInterno_004 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Page.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Page.ucrTopo">
+	<summary>
+ucrTopo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Page.ucrContent1">
+	<summary>
+ucrContent1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Page.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.Page.ucrRodape1">
+	<summary>
+ucrRodape1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAreaRestrita.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmAreaRestrita.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:PortalFornecedores.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PortalFornecedores.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PortalFornecedores.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtDataSolicitacao">
+	<summary>
+txtDataSolicitacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtStatusSolicitacao">
+	<summary>
+txtStatusSolicitacao control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtRazaoSocial">
+	<summary>
+txtRazaoSocial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtNomeFantazia">
+	<summary>
+txtNomeFantazia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtInscEstadual">
+	<summary>
+txtInscEstadual control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtInscMunicipal">
+	<summary>
+txtInscMunicipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtEndereco">
+	<summary>
+txtEndereco control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtNumero">
+	<summary>
+txtNumero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtComplemento">
+	<summary>
+txtComplemento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtBairro">
+	<summary>
+txtBairro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtCep">
+	<summary>
+txtCep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtCaixaPostal">
+	<summary>
+txtCaixaPostal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtCidade">
+	<summary>
+txtCidade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtEstado">
+	<summary>
+txtEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtSiglaPais">
+	<summary>
+txtSiglaPais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtNomeContato">
+	<summary>
+txtNomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtSobrenomeContato">
+	<summary>
+txtSobrenomeContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtFuncaoContato">
+	<summary>
+txtFuncaoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtDepartamentoContato">
+	<summary>
+txtDepartamentoContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtTelefoneContato">
+	<summary>
+txtTelefoneContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtFaxContato">
+	<summary>
+txtFaxContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtCelularContato">
+	<summary>
+txtCelularContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.txtEmailContato">
+	<summary>
+txtEmailContato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmStatusCadastramento.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.gfd.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:PortalFornecedores.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:PortalFornecedores.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:PortalFornecedores.frmRecuperaChave.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmRecuperaChave.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmRecuperaChave.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmRecuperaChave.btSolicitaChave">
+	<summary>
+btSolicitaChave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmRecuperaChave.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.txtCNPJ">
+	<summary>
+txtCNPJ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.txtRazaoSolcial">
+	<summary>
+txtRazaoSolcial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.txtNome">
+	<summary>
+txtNome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.btVoltar">
+	<summary>
+btVoltar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.btSolicitaChave">
+	<summary>
+btSolicitaChave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmSolicitaChave.btFecharPopUp">
+	<summary>
+btFecharPopUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCotacoesPedidos.lblFornecedor">
+	<summary>
+lblFornecedor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PortalFornecedores.frmCotacoesPedidos.btnSair">
+	<summary>
+btnSair control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

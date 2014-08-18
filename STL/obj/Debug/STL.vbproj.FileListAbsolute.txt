@@ -1,0 +1,13 @@
+C:\DESENV\PortalFornecedores\STL\bin\Debug\STL.dll
+C:\DESENV\PortalFornecedores\STL\bin\Debug\STL.pdb
+C:\DESENV\PortalFornecedores\STL\bin\Debug\STL.xml
+C:\DESENV\PortalFornecedores\STL\bin\Debug\Common.dll
+C:\DESENV\PortalFornecedores\STL\bin\Debug\Common.pdb
+C:\DESENV\PortalFornecedores\STL\bin\Debug\Common.xml
+C:\DESENV\PortalFornecedores\STL\obj\Debug\ResolveAssemblyReference.cache
+C:\DESENV\PortalFornecedores\STL\obj\Debug\STL.Resources.resources
+C:\DESENV\PortalFornecedores\STL\obj\Debug\GenerateResource.read.1.tlog
+C:\DESENV\PortalFornecedores\STL\obj\Debug\GenerateResource.write.1.tlog
+C:\DESENV\PortalFornecedores\STL\obj\Debug\STL.dll
+C:\DESENV\PortalFornecedores\STL\obj\Debug\STL.xml
+C:\DESENV\PortalFornecedores\STL\obj\Debug\STL.pdb

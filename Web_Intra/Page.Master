@@ -1,0 +1,29 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Page.Master.vb" Inherits="PortalFornecedores_Intra.Page" %>
+<%@ Register src="Ucrs/UcrTopo.ascx" tagname="ucrTopo" tagprefix="uc1" %>
+<%@ Register src="Ucrs/ucrContentHome.ascx" tagname="ucrContentHome" tagprefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Includes/scripts2.js"></script>
+    <script type="text/javascript" src="/Includes/Mascara.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" method="POST">
+    <div class="page">
+        <div class="header">
+            <uc1:ucrTopo ID="ucrTopo" runat="server" />
+        </div>
+        <div class="align">
+            <uc3:ucrContentHome ID="ucrContent1" runat="server" />
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

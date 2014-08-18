@@ -1,0 +1,10 @@
+C:\DESENV\PortalFornecedores\ShL\bin\Debug\ShL.dll
+C:\DESENV\PortalFornecedores\ShL\bin\Debug\ShL.pdb
+C:\DESENV\PortalFornecedores\ShL\bin\Debug\ShL.xml
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\ResolveAssemblyReference.cache
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\ShL.Resources.resources
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\GenerateResource.read.1.tlog
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\GenerateResource.write.1.tlog
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\ShL.dll
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\ShL.xml
+C:\DESENV\PortalFornecedores\ShL\obj\Debug\ShL.pdb

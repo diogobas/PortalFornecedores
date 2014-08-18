@@ -1,0 +1,66 @@
+﻿.grid 
+{
+ font: 12px Verdana, Arial;   
+ margin-right:2px;
+}
+.grid td, .grid th
+{
+    padding:2px;
+    border-top:solid 0px silver;
+}
+.grid_header
+{
+    text-align: left;
+    color: Black;
+    background-color: #d5e3ef;
+}
+.grid_row td
+{
+    border-bottom:solid 1px silver;    
+    border-top:solid 1px silver;    
+}
+.grid_alternating
+{
+    background-color:  #d5e3ef;
+}
+
+.grid_alternating td
+{
+    border-bottom:solid 0px silver;
+    border-top:solid 1px silver;    
+}
+.grid_pager
+{
+    background-color:#fff;
+    color: Black ;
+    height:15px;
+    border-top:solid 1px #000;    
+    text-align: center;
+}
+.grid a
+{
+    text-decoration:underline;   
+    color:#006699
+}
+
+.CodeTitleGrid td
+{
+    border-bottom:solid 1px whitesmoke;
+    border-right: solid 1px whitesmoke;
+}
+
+.CodeTitleGrid a
+{
+    text-decoration: none;
+    color: #003399;
+}
+
+.CodeTitleGrid a:hover
+{
+    text-decoration: underline;
+}
+
+.hiddencol
+        {
+            display: none;
+        }

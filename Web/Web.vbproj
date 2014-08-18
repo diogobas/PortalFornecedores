@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{226D4A91-79AF-499D-93B0-D9EBFF355C9E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PortalFornecedores</RootNamespace>
+    <AssemblyName>PortalFornecedores</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <SccProjectName>"%24/PFD - Portal de Fornecedores Duratex", COHBAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccAuxPath />
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>PortalFornecedores.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>PortalFornecedores.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmSobreDuratex.aspx.designer.vb">
+      <DependentUpon>frmSobreDuratex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobreDuratex.aspx.vb">
+      <DependentUpon>frmSobreDuratex.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmStatusAlteracaoCadastro.aspx.designer.vb">
+      <DependentUpon>frmStatusAlteracaoCadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatusAlteracaoCadastro.aspx.vb">
+      <DependentUpon>frmStatusAlteracaoCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmRecuperaChave.aspx.designer.vb">
+      <DependentUpon>frmRecuperaChave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecuperaChave.aspx.vb">
+      <DependentUpon>frmRecuperaChave.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmSolicitaChave.aspx.designer.vb">
+      <DependentUpon>frmSolicitaChave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSolicitaChave.aspx.vb">
+      <DependentUpon>frmSolicitaChave.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmLoginFornecedor.aspx.designer.vb">
+      <DependentUpon>frmLoginFornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginFornecedor.aspx.vb">
+      <DependentUpon>frmLoginFornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmStatusCadastramento.aspx.designer.vb">
+      <DependentUpon>frmStatusCadastramento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatusCadastramento.aspx.vb">
+      <DependentUpon>frmStatusCadastramento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmEntradaPagamentos.aspx.designer.vb">
+      <DependentUpon>frmEntradaPagamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntradaPagamentos.aspx.vb">
+      <DependentUpon>frmEntradaPagamentos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmCotacoesPedidos.aspx.designer.vb">
+      <DependentUpon>frmCotacoesPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCotacoesPedidos.aspx.vb">
+      <DependentUpon>frmCotacoesPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmAreaRestrita.aspx.designer.vb">
+      <DependentUpon>frmAreaRestrita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAreaRestrita.aspx.vb">
+      <DependentUpon>frmAreaRestrita.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmAtualizacaoCadastro2.aspx.designer.vb">
+      <DependentUpon>frmAtualizacaoCadastro2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAtualizacaoCadastro2.aspx.vb">
+      <DependentUpon>frmAtualizacaoCadastro2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmAtualizacaoCadastro.aspx.designer.vb">
+      <DependentUpon>frmAtualizacaoCadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAtualizacaoCadastro.aspx.vb">
+      <DependentUpon>frmAtualizacaoCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmCadastramento2.aspx.designer.vb">
+      <DependentUpon>frmCadastramento2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastramento2.aspx.vb">
+      <DependentUpon>frmCadastramento2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmCadastramento.aspx.designer.vb">
+      <DependentUpon>frmCadastramento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastramento.aspx.vb">
+      <DependentUpon>frmCadastramento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="gfd.aspx.designer.vb">
+      <DependentUpon>gfd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gfd.aspx.vb">
+      <DependentUpon>gfd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Page.Master.designer.vb">
+      <DependentUpon>Page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page.Master.vb">
+      <DependentUpon>Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manutencao.aspx.designer.vb">
+      <DependentUpon>Manutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao.aspx.vb">
+      <DependentUpon>Manutencao.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Ucrs\ucrContentHome.ascx.designer.vb">
+      <DependentUpon>ucrContentHome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucrs\ucrContentHome.ascx.vb">
+      <DependentUpon>ucrContentHome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucrs\ucrContent.ascx.designer.vb">
+      <DependentUpon>ucrContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucrs\ucrContent.ascx.vb">
+      <DependentUpon>ucrContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucrs\ucrContentTop.ascx.designer.vb">
+      <DependentUpon>ucrContentTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucrs\ucrContentTop.ascx.vb">
+      <DependentUpon>ucrContentTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucrs\ucrTopo.ascx.designer.vb">
+      <DependentUpon>ucrTopo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucrs\ucrTopo.ascx.vb">
+      <DependentUpon>ucrTopo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ucrs\ucrRodape.ascx.designer.vb">
+      <DependentUpon>ucrRodape.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ucrs\ucrRodape.ascx.vb">
+      <DependentUpon>ucrRodape.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Themes\Default\banners.css" />
+    <Content Include="App_Themes\Default\colorbox.css" />
+    <Content Include="App_Themes\Default\estilos.css" />
+    <Content Include="App_Themes\Default\fontes\estilos.css" />
+    <Content Include="App_Themes\Default\historia.css" />
+    <Content Include="App_Themes\Default\jquery\jquery-ui-1.css" />
+    <Content Include="App_Themes\Default\menu.css" />
+    <Content Include="App_Themes\Home\estilos.css" />
+    <Content Include="App_Themes\Imagens\amarelo.png" />
+    <Content Include="App_Themes\Imagens\apple-touch-icon-ipad.png" />
+    <Content Include="App_Themes\Imagens\apple-touch-icon-iphone-retina.png" />
+    <Content Include="App_Themes\Imagens\apple-touch-icon-iphone.png" />
+    <Content Include="App_Themes\Imagens\avap.jpg" />
+    <Content Include="App_Themes\Imagens\azul.png" />
+    <Content Include="App_Themes\Imagens\background.jpg" />
+    <Content Include="App_Themes\Imagens\bg_ampliar.png" />
+    <Content Include="App_Themes\Imagens\bg_arquivos.png" />
+    <Content Include="App_Themes\Imagens\bg_bottom_content.png" />
+    <Content Include="App_Themes\Imagens\bg_bottom_content_home.png" />
+    <Content Include="App_Themes\Imagens\bg_bottom_menu.png" />
+    <Content Include="App_Themes\Imagens\bg_box_atualiza_endereco.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_chave.png" />
+    <Content Include="App_Themes\Imagens\bg_box_como_conheceu.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_dados_contato_empresa.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_dados_empresa.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_home.png" />
+    <Content Include="App_Themes\Imagens\bg_box_home_1.png" />
+    <Content Include="App_Themes\Imagens\bg_box_home_2.png" />
+    <Content Include="App_Themes\Imagens\bg_box_home_3.png" />
+    <Content Include="App_Themes\Imagens\bg_box_home_4.png" />
+    <Content Include="App_Themes\Imagens\bg_box_materiais_servicos.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_message_popup.jpg" />
+    <Content Include="App_Themes\Imagens\bg_box_recupera_chave.png" />
+    <Content Include="App_Themes\Imagens\bg_busca.png" />
+    <Content Include="App_Themes\Imagens\bg_center_content.png" />
+    <Content Include="App_Themes\Imagens\bg_center_content_home.png" />
+    <Content Include="App_Themes\Imagens\bg_center_menu.png" />
+    <Content Include="App_Themes\Imagens\bg_content.png" />
+    <Content Include="App_Themes\Imagens\bg_divmenu.png" />
+    <Content Include="App_Themes\Imagens\bg_footer.png" />
+    <Content Include="App_Themes\Imagens\bg_img_black.png" />
+    <Content Include="App_Themes\Imagens\bg_img_white.png" />
+    <Content Include="App_Themes\Imagens\bg_menu.png" />
+    <Content Include="App_Themes\Imagens\bg_menu_interno.png" />
+    <Content Include="App_Themes\Imagens\bg_menu_over.png" />
+    <Content Include="App_Themes\Imagens\bg_num.png" />
+    <Content Include="App_Themes\Imagens\bg_num_active.png" />
+    <Content Include="App_Themes\Imagens\bg_pasta.png" />
+    <Content Include="App_Themes\Imagens\bg_pd_download.jpg" />
+    <Content Include="App_Themes\Imagens\bg_seta_next.png" />
+    <Content Include="App_Themes\Imagens\bg_seta_prev.png" />
+    <Content Include="App_Themes\Imagens\bg_sub.gif" />
+    <Content Include="App_Themes\Imagens\bg_submenuover.png" />
+    <Content Include="App_Themes\Imagens\bg_sub_menu.jpg" />
+    <Content Include="App_Themes\Imagens\bg_titulo_internas.png" />
+    <Content Include="App_Themes\Imagens\bg_topo.png" />
+    <Content Include="App_Themes\Imagens\bg_topo\bg_top_content_ferramentas.png" />
+    <Content Include="App_Themes\Imagens\bg_top_content.png" />
+    <Content Include="App_Themes\Imagens\bg_top_content_home.png" />
+    <Content Include="App_Themes\Imagens\border1.png" />
+    <Content Include="App_Themes\Imagens\border2.png" />
+    <Content Include="App_Themes\Imagens\box_home_restrita.png" />
+    <Content Include="App_Themes\Imagens\bt_alterar.png" />
+    <Content Include="App_Themes\Imagens\bt_ampliar.png" />
+    <Content Include="App_Themes\Imagens\bt_busca.png" />
+    <Content Include="App_Themes\Imagens\bt_delete.png" />
+    <Content Include="App_Themes\Imagens\bt_enviar.png" />
+    <Content Include="App_Themes\Imagens\bt_outros.png" />
+    <Content Include="App_Themes\Imagens\bt_pdf.png" />
+    <Content Include="App_Themes\Imagens\bt_print.png" />
+    <Content Include="App_Themes\Imagens\bt_reduzir.png" />
+    <Content Include="App_Themes\Imagens\bt_setas_bottom_dir.png" />
+    <Content Include="App_Themes\Imagens\bt_setas_bottom_esq.png" />
+    <Content Include="App_Themes\Imagens\colabor_01.jpg" />
+    <Content Include="App_Themes\Imagens\colabor_02.jpg" />
+    <Content Include="App_Themes\Imagens\duratex.png" />
+    <Content Include="App_Themes\Imagens\embarque_nessa.jpg" />
+    <Content Include="App_Themes\Imagens\error.png" />
+    <Content Include="App_Themes\Imagens\erro_Durafloor.jpg" />
+    <Content Include="App_Themes\Imagens\flowplayer-3.2.7.swf" />
+    <Content Include="App_Themes\Imagens\icon_idiomas.png" />
+    <Content Include="App_Themes\Imagens\icon_rss.png" />
+    <Content Include="App_Themes\Imagens\ico_copiar.gif" />
+    <Content Include="App_Themes\Imagens\identidade.jpg" />
+    <Content Include="App_Themes\Imagens\img_fornecedor.jpg" />
+    <Content Include="App_Themes\Imagens\img_home_deca.png" />
+    <Content Include="App_Themes\Imagens\img_home_madeira.png" />
+    <Content Include="App_Themes\Imagens\img_noticia_01_08.png" />
+    <Content Include="App_Themes\Imagens\img_noticia_05_09.png" />
+    <Content Include="App_Themes\Imagens\img_noticia_16_09.png" />
+    <Content Include="App_Themes\Imagens\itens_home.png" />
+    <Content Include="App_Themes\Imagens\itens_home_itr.png" />
+    <Content Include="App_Themes\Imagens\loading.gif" />
+    <Content Include="App_Themes\Imagens\logo_ouvidoria.png" />
+    <Content Include="App_Themes\Imagens\mapa_argentina.jpg" />
+    <Content Include="App_Themes\Imagens\mapa_belgica.jpg" />
+    <Content Include="App_Themes\Imagens\mapa_eua.jpg" />
+    <Content Include="App_Themes\Imagens\mapa_negocios.jpg" />
+    <Content Include="App_Themes\Imagens\marcador_azul.png" />
+    <Content Include="App_Themes\Imagens\marcador_azul_deca.png" />
+    <Content Include="App_Themes\Imagens\marcador_azul_escuro.png" />
+    <Content Include="App_Themes\Imagens\marcador_laranja.png" />
+    <Content Include="App_Themes\Imagens\marcador_marrom.png" />
+    <Content Include="App_Themes\Imagens\marcador_verde.png" />
+    <Content Include="App_Themes\Imagens\marcador_vermelho.png" />
+    <Content Include="App_Themes\Imagens\player.swf" />
+    <Content Include="App_Themes\Imagens\Portal.png" />
+    <Content Include="App_Themes\Imagens\premios.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2004.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2005.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2006.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2007.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2008.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2009.jpg" />
+    <Content Include="App_Themes\Imagens\relatorio_2010.jpg" />
+    <Content Include="App_Themes\Imagens\resp_01.jpg" />
+    <Content Include="App_Themes\Imagens\resp_02.jpg" />
+    <Content Include="App_Themes\Imagens\seta_vai.gif" />
+    <Content Include="App_Themes\Imagens\seta_volta.gif" />
+    <Content Include="App_Themes\Imagens\star.gif" />
+    <Content Include="App_Themes\Imagens\success.png" />
+    <Content Include="App_Themes\Imagens\tabs_left_iten.png" />
+    <Content Include="App_Themes\Imagens\tabs_right_iten.png" />
+    <Content Include="App_Themes\Imagens\verde.png" />
+    <Content Include="App_Themes\Imagens\vermelho.png" />
+    <Content Include="App_Themes\Imagens\vol_2003.jpg" />
+    <Content Include="App_Themes\Imagens\vol_2004.jpg" />
+    <Content Include="App_Themes\Imagens\vol_2005.jpg" />
+    <Content Include="App_Themes\Imagens\warning.png" />
+    <Content Include="frmSobreDuratex.aspx" />
+    <Content Include="frmStatusAlteracaoCadastro.aspx" />
+    <Content Include="frmRecuperaChave.aspx" />
+    <Content Include="frmSolicitaChave.aspx" />
+    <Content Include="frmLoginFornecedor.aspx" />
+    <Content Include="frmStatusCadastramento.aspx" />
+    <Content Include="frmEntradaPagamentos.aspx" />
+    <Content Include="frmCotacoesPedidos.aspx" />
+    <Content Include="frmAreaRestrita.aspx" />
+    <Content Include="frmAtualizacaoCadastro2.aspx" />
+    <Content Include="frmAtualizacaoCadastro.aspx" />
+    <Content Include="frmCadastramento2.aspx" />
+    <Content Include="frmCadastramento.aspx" />
+    <Content Include="gfd.aspx" />
+    <Content Include="Includes\Mascara.js" />
+    <Content Include="Includes\scripts2.js" />
+    <Content Include="Manutencao.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="App_Themes\Imagens\deca.png" />
+    <Content Include="App_Themes\Imagens\floor.png" />
+    <Content Include="App_Themes\Imagens\hydra.png" />
+    <Content Include="App_Themes\Imagens\logo.png" />
+    <Content Include="App_Themes\Imagens\madefibra.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Includes\curvycorners.js" />
+    <Content Include="Includes\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Includes\jquery-1.4.1.js" />
+    <Content Include="Includes\jquery-1.4.1.min.js" />
+    <Content Include="Includes\jquery.colorbox.js" />
+    <Content Include="Includes\jquery.dropshadow.js" />
+    <Content Include="Includes\jquery_ease.js" />
+    <Content Include="Includes\superfish.js" />
+    <Content Include="Includes\WebResource%281%29.js" />
+    <Content Include="Includes\WebResource.js" />
+    <Content Include="Ucrs\ucrContentHome.ascx" />
+    <Content Include="Ucrs\ucrContent.ascx" />
+    <Content Include="Ucrs\ucrContentTop.ascx" />
+    <Content Include="Ucrs\ucrTopo.ascx" />
+    <Content Include="Ucrs\ucrRodape.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Page.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.vbproj">
+      <Project>{33BE3BAB-10C6-41D2-87D3-43889B9B68CD}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.vbproj">
+      <Project>{5BE513C2-0BB6-4CAD-92BF-DF4E537E8781}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShL\ShL.vbproj">
+      <Project>{656B38D7-5E75-437B-BFFE-59284253BE59}</Project>
+      <Name>ShL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62750</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
